@@ -3,8 +3,8 @@ tools
 
 # Deploy
 ```shell
-git clone https://github.com/AeroNyxNetwork/NodeDocker.git
-cd NodeDocker
+git clone https://github.com/AeroNyxNetwork/AeroNyxTools.git
+cd AeroNyxTools/
 ./aero_nyx_tool -I
 ./aero_nyx_tool --start
 ```
