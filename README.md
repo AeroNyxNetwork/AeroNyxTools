@@ -5,8 +5,8 @@ tools
 ```shell
 git clone https://github.com/AeroNyxNetwork/AeroNyxTools.git
 cd AeroNyxTools/
-./aero_nyx_tool -I
-./aero_nyx_tool --start
+python3 main.py -I
+python3 main.py --start
 ```
 
 # More

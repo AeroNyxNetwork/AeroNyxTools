@@ -24,7 +24,7 @@ def ArgInit():
     parser.add_argument('--stop', action='store_const', dest='stop',
         const='1',
         help='stop the service')
-    parser.add_argument('-v', '--version', action='version', version='%(prog)s 0.1')
+    parser.add_argument('-v', '--version', action='version', version='v0.1.1')
 
     results = parser.parse_args()
     
