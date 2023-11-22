@@ -1,11 +1,29 @@
 # AeroNyxTools
-tools
+Tools for deploying AeroNyxNode services.
 
 # Deploy
+## Download source
 ```shell
 git clone https://github.com/AeroNyxNetwork/AeroNyxTools.git
 cd AeroNyxTools/
+```
+
+## Deploy Environment
+```shell
 python3 main.py -I
+```
+
+## Register node
+```shell
+python3 main.py --set_register --owner=04778899 --port=10003 --name=node_name --country=US
+```
+- owner--Onwer of node 
+- port--Port of node
+- name--Name of node
+- country--Country code of node
+
+## Run service
+```sheel
 python3 main.py --start
 ```
 
