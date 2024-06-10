@@ -138,7 +138,7 @@ def register() :
     obj = json.loads(r.read())
     print(obj)
 
-#python3 main.py --set_register --owner=0432215ed9e25b8fc3e38a6df609ce46995b418b99082d367d7999c07496373b1f5e6ee09375c4f7e423f5a53cb7fc9e75f4cf8a13c0106799a9be01f759f264a6 --port=1011 --name=name111 --country=CN
+#python3 main.py --set_register --owner=0432215ed9e25b8fc3e38a6df609ce46995b418b99082d367d7999c07496373b1f5e6ee09375c4f7e423f5a53cb7fc9e75f4cf8a13c0106799a9be01f759f264a6 --port=1011 --name=USNAME --country=US
 if __name__ == "__main__":
     ArgInit()
 
