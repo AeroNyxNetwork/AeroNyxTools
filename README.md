@@ -15,7 +15,7 @@ python3 main.py -I
 
 ## Register node
 ```shell
-python3 main.py --set_register --owner=04778899 --port=10003 --name=node_name --country=US
+python3 main.py --set_register --owner=Your client public key  --port=10003 --name=node_name --country=US
 ```
 - owner--Owner of node (You can copy the pubkey from the AeroNyx client as the owner of the node)
 - port--Port of node
