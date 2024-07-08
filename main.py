@@ -91,7 +91,12 @@ def install():
     print("Result:"+green_str("success"))
     
 def update():
-    print("update")
+    print("update....")
+    check_su()
+    stop()
+    os.system("git --git-dir=/opt/node_docker/.git --work-tree=/opt/node_docker pull")
+    os.system("docker-compose -f /opt/node_docker/docker-compose.yml pull")
+    start()
     #  
     
 def private():
