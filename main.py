@@ -66,7 +66,7 @@ def ArgInit():
         register()
 
 
-# color output
+# color output 
 def red_str(str):
     return "\033[1;31m"+str+"\033[0m"
 def green_str(str):
