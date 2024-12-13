@@ -3,7 +3,7 @@ Tools for deploying AeroNyxNode services.
 
 # Deploy
 ## Download source
-```shell
+```shell 
 git clone https://github.com/AeroNyxNetwork/AeroNyxTools.git
 cd AeroNyxTools/
 ```
